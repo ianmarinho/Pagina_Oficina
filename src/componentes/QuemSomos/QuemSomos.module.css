@@ -1,0 +1,32 @@
+.fotos {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.imagem {
+  width: 250px; /* Tamanho padrão para telas grandes */
+  height: 250px; /* Tamanho padrão para telas grandes */
+  object-fit: cover;
+  margin: 10px; /* Espaçamento entre as imagens */
+  border-radius: 50%; /* Bordas redondas */
+}
+
+@media (max-width: 768px) {
+  .fotos {
+      display: none; /* Esconde todo o container de fotos em telas menores */
+  }
+
+  .imagem {
+      display: none; /* Esconde cada imagem individualmente em telas menores */
+  }
+}
+
+
+
+.text-container {
+  padding-left: 20px;
+  color: #fff;
+}
+

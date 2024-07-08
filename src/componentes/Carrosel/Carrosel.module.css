@@ -1,0 +1,11 @@
+/* Estilos padrão para o carrossel */
+.responsive-carousel {
+    /* Outros estilos, se necessário */
+  }
+  
+  @media (max-width: 768px) {
+    .responsive-carousel {
+      display: none !important; /* Adiciona !important para garantir que a regra seja aplicada */
+    }
+  }
+  

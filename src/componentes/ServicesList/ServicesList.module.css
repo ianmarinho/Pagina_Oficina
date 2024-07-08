@@ -1,0 +1,19 @@
+.col-md-4 {
+    margin-bottom: 20px; /* Adiciona um espaçamento entre os cards */
+}
+
+.card {
+    background-color: transparent; /* Remove a cor de fundo branca */
+    border: 1px solid rgba(0, 0, 0, 0.125); /* Adiciona uma borda para destacar os cards */
+}
+
+.card-header {
+    background-color: #f8f9fa; /* Define uma cor de fundo para o cabeçalho do card */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125); /* Adiciona uma borda inferior no cabeçalho */
+}
+
+.card-body {
+    padding: 1rem; /* Adiciona um espaçamento interno ao corpo do card */
+}
+
+

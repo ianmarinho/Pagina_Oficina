@@ -1,0 +1,62 @@
+/* Footer.module.css */
+
+.footer {
+    background-color: black;
+    color: #fff;
+    padding: 40px 0;
+    margin-top: 0;
+    /* Removendo margem superior */
+}
+
+.localizacao-container {
+    margin-bottom: 0;
+    /* Removendo margem inferior */
+}
+
+.footer h5 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer ul li a:hover {
+    color: #bbb;
+}
+
+.footer .list-inline {
+    padding-left: 0;
+}
+
+.footer .list-inline-item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer .list-inline-item:last-child {
+    margin-right: 0;
+}
+
+.footer .list-inline-item a {
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.footer .list-inline-item a:hover {
+    color: #bbb;
+}
